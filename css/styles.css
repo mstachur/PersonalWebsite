@@ -1,0 +1,176 @@
+/* Layout ------------------------------------------------*/
+
+body {
+	text-align: center;
+	font-family: "Times New Roman", Times, Georgia, serif;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper, .presentation {
+	text-align: left;  /* undoing IE 5-6 hack */
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	/*background-color: #e1edfd;*/
+}
+
+.presentation {
+	margin-top: 50px;
+}
+
+.header {
+	margin: 0 auto;
+	background: url(../graphics/header@2x.png) top left no-repeat;
+	background-size: 855px;
+	width: 855px;
+	text-align: center;
+}
+
+h1 {
+	height: 90px;
+	margin: 0;
+	padding: 60px 80px 0 80px;
+	text-align: left;
+}
+
+ul.nav {
+	margin: 6px auto;
+	padding: 0px;
+	height: 2em;
+}
+
+ul.nav li {
+	display: inline;
+	padding-left: 1.7em;
+	background: url(../graphics/tiny-fish.png) no-repeat left center;
+	background-size: 19px
+}
+
+.footer {
+	clear: both;
+}
+
+h3 {
+	margin-right: 100px;
+}
+
+p, ul {
+	margin-right: 200px;
+}
+
+h2 {
+	margin-bottom: 40px;
+}
+
+h3 {
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+blockquote {
+	width: 300px;
+}
+
+.captioned-image {
+	float: right;
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+.captioned-image div {
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.gallery {
+	width: 800px;
+	margin: 0 auto;
+}
+.gallery img {
+	margin: 8px;
+	height: 250px;
+}
+.gallery p {
+	margin: 2em;
+}
+
+
+/* Styles ------------------------------------------------*/
+
+h1 {
+	color: #126dc1;
+	font-size: 28pt;
+	font-family: Optima, "Times New Roman", Times, serif;
+}
+
+ul.nav li a {
+	margin-right: 50px;
+	font: 15pt Arial, Helvetica, Geneva, sans-serif;
+	color: #008025;
+	text-decoration: none;
+	letter-spacing: .09em;
+}
+
+ul.nav li a:hover {
+	text-decoration: underline;
+}
+
+ul.nav li a.current {
+	font-size: 20pt;
+	cursor: default;
+	text-decoration: none;
+}
+
+h2 {
+	color: #006600;
+}
+
+h3 {
+	font-size: 15pt;
+}
+
+a {
+	color: #005cb2;
+}
+
+p, blockquote {
+	line-height: 1.3em;
+}
+
+p, ul {
+	color: #212121;
+}
+
+ul {
+	list-style-type: none;
+	/*list-style-image: url(../graphics/tiny-fish.gif);*/
+}
+
+li {
+	margin-bottom: 1em;
+	padding-left: 27px;
+	margin-left: -25px;
+	background: url(../graphics/tiny-fish.png) left top no-repeat;
+	background-size: 19px;
+	background-position-y: 4px;
+}
+
+#megan-email {
+	border: none;
+	position: relative;
+	top: 5px;
+}
+
+.captioned-image div {
+	font-family: Helvetica, "Helvetica Neue", Arial, Geneva, sans-serif;
+	font-size: 80%;
+}
+
+.presentation div strong {
+	font-size: 14pt;
+}
+
+.slideshare {
+	padding-right: 20px;
+	background: url(../graphics/slideshare.png) no-repeat right center;
+}
